@@ -1,0 +1,12 @@
+tipo e interfaccia:
+il tipo viene utilizzato nel momento in cui si vuole fare un alias: type Gianfranco = Date
+le interfacce possono essere estese senza essere ridichiarate
+
+
+l'interfaccia ESTENDE qualcosa che può essere un'altra interfaccia o un tipo
+un tipo AGGREGA qualcosa che può essere un altro tipo o un interfaccia
+
+il tipo record mi permette di definire la chiave e come secondo il valore: Record<string, number>
+
+
+

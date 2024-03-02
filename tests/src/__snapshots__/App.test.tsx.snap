@@ -1,0 +1,86 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > get degree api works correctly > match snapshot - expect degree to be invokes correctly 1`] = `
+<DocumentFragment>
+  <button>
+    Incrementa
+  </button>
+  <p>
+    Contatore: 0
+  </p>
+  <button>
+    Trova temperatura
+  </button>
+  <p>
+    Temperatura: 21
+  </p>
+</DocumentFragment>
+`;
+
+exports[`App > get degree api works correctly > match snapshot - expect degree to be the same if button clicked twice 1`] = `
+<DocumentFragment>
+  <button>
+    Incrementa
+  </button>
+  <p>
+    Contatore: 0
+  </p>
+  <button>
+    Trova temperatura
+  </button>
+  <p>
+    Temperatura: 21
+  </p>
+</DocumentFragment>
+`;
+
+exports[`App > match snapshot - clicking on button 1 time 1`] = `
+<DocumentFragment>
+  <button>
+    Incrementa
+  </button>
+  <p>
+    Contatore: 1
+  </p>
+  <button>
+    Trova temperatura
+  </button>
+  <p>
+    Temperatura: 0
+  </p>
+</DocumentFragment>
+`;
+
+exports[`App > match snapshot - expect degree to be -1 when error happens 1`] = `
+<DocumentFragment>
+  <button>
+    Incrementa
+  </button>
+  <p>
+    Contatore: 0
+  </p>
+  <button>
+    Trova temperatura
+  </button>
+  <p>
+    Temperatura: -1
+  </p>
+</DocumentFragment>
+`;
+
+exports[`App > match snapshot - initial state 1`] = `
+<DocumentFragment>
+  <button>
+    Incrementa
+  </button>
+  <p>
+    Contatore: 0
+  </p>
+  <button>
+    Trova temperatura
+  </button>
+  <p>
+    Temperatura: 0
+  </p>
+</DocumentFragment>
+`;

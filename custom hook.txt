@@ -1,0 +1,10 @@
+in un file separato es. hook/nomeHook.ts
+creo una funzione con nome useQualcosa esportandola in cui inserisco gli hook necessari per eseguire le stesse operazioni
+in più componenti
+
+
+per scrivere dentro la input devo usare userEvent.type
+
+
+abbiamo visto come testare i componenti
+vedere come testare un hook
