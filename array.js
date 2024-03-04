@@ -8,7 +8,7 @@ const people = [{name: 'Matteo', age: 29}, {name: 'Stefano', age: 31}]
 
 const people2 = people.sort((a, b) => a.age - b.age)
 
-const people3 = people.toSorted((a, b) => a.age - b.age)
+const people3 = people.toSorted((a, b) => a.age - b.age) //in questo modo non altero l'array principale
 
 const arrayPari = [1,2,3]
 
